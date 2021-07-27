@@ -6,8 +6,10 @@ function App() {
   return (
     <Fragment>
       <Header titulo="Buscador de Noticias" />
-      <div className="container white">
-        <Formulario />
+      <div className="contenedor">
+        <div className="container white">
+          <Formulario />
+        </div>
       </div>
     </Fragment>
   );
